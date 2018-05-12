@@ -30,7 +30,7 @@ def merge_imgae(image_file,location_list):
     im_list_upper = []
     im_list_down = []
     for location in location_list:
-        print(location['y'])
+        # print(location['y'])
         if location['y'] == -58:
             result = im.crop((abs(location['x']),58,abs(location['x'])+10,116))
             im_list_upper.append(result)
@@ -45,7 +45,7 @@ def merge_imgae(image_file,location_list):
     for im in im_list_down:
         new_im.paste(im,(x_offset,58))
         x_offset += im.size[0]
-    new_im.show()
+    # new_im.show()
     return new_im
 
 
@@ -106,9 +106,9 @@ def get_track(l):
     v = 0
     while current < l:
         if current < mid:
-            a = 1
+            a = 2
         else:
-            a = -1
+            a = -3
         v0 = v
         v = v0 + a*t
         move = v0*t + 0.5*a*t*t
@@ -116,7 +116,7 @@ def get_track(l):
         track.append(round(move))
 
     for i in range(5):
-        track.append(-random.randint(0,5))
+        track.append(-1)
     return track
 
 
@@ -133,8 +133,8 @@ def main(driver):
     print('拖动滑动按钮')
     for track in track_list:
         ActionChains(driver).move_by_offset(xoffset=track,yoffset=0).perform()
-    # ActionChains(driver).move_by_offset(xoffset=-1,yoffset=0).perform()
-    time.sleep(1)
+    ActionChains(driver).move_by_offset(xoffset=-1,yoffset=0).perform()
+    # time.sleep(1)
     print('释放鼠标！')
     ActionChains(driver).release(on_element=element).perform()
     time.sleep(10)
