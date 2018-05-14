@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97f86d8c-3de4-4928-bb1c-3e7bb385d043" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/验证码/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/验证码/chaojiying.py" beforeDir="false" afterPath="$PROJECT_DIR$/验证码/chaojiying.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/验证码/chaojiying_dos.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/验证码/点触验证码.py" beforeDir="false" afterPath="$PROJECT_DIR$/验证码/点触验证码.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,29 +40,7 @@
     <favorites_list name="PythonProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="点触验证码.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/验证码/点触验证码.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-              <folding>
-                <element signature="e#155#166#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chaojiying.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/验证码/chaojiying.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,6 +78,7 @@
         <option value="$PROJECT_DIR$/天气.py" />
         <option value="$PROJECT_DIR$/验证码/滑动验证码.py" />
         <option value="$PROJECT_DIR$/验证码/chaojiying.py" />
+        <option value="$PROJECT_DIR$/验证码/__init__.py" />
         <option value="$PROJECT_DIR$/验证码/点触验证码.py" />
       </list>
     </option>
@@ -130,16 +108,6 @@
             <path>
               <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
-              <item name="js调试" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonProject" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonProject" type="b2602c69:ProjectViewProjectNode" />
@@ -175,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.点触验证码">
+  <component name="RunManager" selected="Python.demo (1)">
     <configuration name="字符验证码" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -561,11 +529,9 @@
       <item itemvalue="Python.demo (2)" />
       <item itemvalue="Python.字符验证码" />
       <item itemvalue="Python.chaojiying" />
-      <item itemvalue="Python.点触验证码" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.点触验证码" />
         <item itemvalue="Python.chaojiying" />
         <item itemvalue="Python.字符验证码" />
         <item itemvalue="Python.demo (2)" />
@@ -601,12 +567,12 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5005834" side_tool="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.29268292" />
+      <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.29268292" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292683" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3292683" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49941656" weight="0.30266076" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3292683" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.31038508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.31738624" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32905483" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32905483" />
@@ -625,12 +591,45 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/验证码/点触验证码.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -963,13 +962,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/验证码/True.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/验证码/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/验证码/点触验证码.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        <state relative-caret-position="259">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="e#155#166#0" expanded="true" />
           </folding>
